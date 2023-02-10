@@ -21,10 +21,10 @@ function plusSlides(n) {
     dispSlide(slider += n);
 }
 
-// function scrollWindow(){
-//     window.scrollTo({top: 0, behavior:"smooth"});
-// }
-// document.getElementById("btn").addEventListener("click", scrollWindow);
+function scrollWindow(){
+    window.scrollTo({top: 0, behavior:"smooth"});
+}
+document.getElementById("btn").addEventListener("click", scrollWindow);
 
 // function scrollHome(){
 //     window.scrollTo({top:0, behavior:"smooth"})
